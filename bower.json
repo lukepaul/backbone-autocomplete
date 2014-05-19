@@ -2,7 +2,10 @@
   "name": "lukepaul/backbone-autocomplete",
   "version": "1.0.1",
   "description": "An autocomplete view for backbone.js",
-  "main": "AutoCompleteView.js",
+  "main": [
+    "./AutoCompleteView.js",
+    "./backbone.autocomplete.css"
+  ],
   "ignore": [
   ],
   "dependencies": {
