@@ -1,10 +1,10 @@
 {
-  "name": "lukepaul/backbone-autocomplete",
+  "name": "lukepaul/chaplin-autocomplete",
   "version": "1.0.1",
-  "description": "An autocomplete view for backbone.js",
+  "description": "An autocomplete view for Chaplinjs",
   "main": [
-    "./src/backbone.autocomplete.js",
-    "./src/backbone.autocomplete.css"
+    "./src/chaplin.autocomplete.js",
+    "./src/chaplin.autocomplete.css"
   ],
   "ignore": [
   ],
