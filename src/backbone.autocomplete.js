@@ -1,6 +1,6 @@
 ;(function() {
 
-    var AutoCompleteItemView = Backbone.View.extend({
+    var AutoCompleteItemView = Chaplin.View.extend({
         tagName: "li",
         template: _.template('<a href="#"><%= label %></a>'),
 
@@ -26,7 +26,7 @@
 
     });
 
-    var AutoCompleteView = Backbone.View.extend({
+    var AutoCompleteView = Chaplin.View.extend({
         tagName: "ul",
         className: "autocomplete",
         wait: 300,
